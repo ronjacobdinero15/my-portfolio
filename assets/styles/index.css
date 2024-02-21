@@ -33,7 +33,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px 0;
+  margin-bottom: 10px;
 }
 main .name {
   font-weight: bold;
@@ -340,6 +340,10 @@ footer .container ul li img {
   }
 }
 @media (max-width: 480px) {
+  /* MAIN */
+  main {
+    margin-top: 20px;
+  }
   /* TECHNOLOGIES */
   #technologies .current-techs .images {
     grid-template-columns: repeat(3, 1fr);
